@@ -8,17 +8,17 @@ A movie recommendation system built with Streamlit that suggests similar movies 
 
 ## 🌟 Key Highlights
 
-- 🔬 **Comparative Analysis**: Evaluated 3 vectorization techniques (Count Vectorizer, TF-IDF, Sentence Transformers)
-- 📊 **Data-Driven Decision**: Selected Sentence Transformers based on performance metrics
-- 📈 **Visualizations**: Included detailed comparison charts in analysis notebook
-- ⚡ **Optimized Performance**: Smart caching for instant recommendations
+🔬 **Comparative Analysis**: Evaluated 3 vectorization techniques (Count Vectorizer, TF-IDF, Sentence Transformers)
+📊 **Data-Driven Decision**: Selected Sentence Transformers based on performance metrics
+📈 **Visualizations**: Included detailed comparison charts in analysis notebook
+⚡ **Optimized Performance**: Smart caching for instant recommendations
 
 ---
 
 ## 📋 Overview
 
 This application recommends movies similar to your favorite ones by analyzing movie metadata including:
-- Overview/Plot
+- Overview / Plot
 - Genre
 - Keywords
 - Cast
@@ -30,13 +30,13 @@ The system uses **Sentence Transformers** to create semantic embeddings of movie
 
 ## ✨ Features
 
-- 🎯 Content-based filtering using state-of-the-art sentence embeddings
-- 🔬 Comprehensive vectorization comparison (Count, TF-IDF, Sentence Transformers)
-- 📊 Performance analysis with visualizations in Jupyter notebook
-- ⚡ Fast similarity computation with cached results
-- 🎨 Clean and intuitive user interface
-- 📈 Data-driven model selection based on empirical results
-- 🚀 Deployed on Streamlit Cloud for easy access
+🎯 Content-based filtering using state-of-the-art sentence embeddings
+🔬 Comprehensive vectorization comparison (Count, TF-IDF, Sentence Transformers)
+📊 Performance analysis with visualizations in Jupyter notebook
+⚡ Fast similarity computation with cached results
+🎨 Clean and intuitive user interface
+📈 Data-driven model selection based on empirical results
+🚀 Deployed on Streamlit Cloud for easy access
 
 ---
 
