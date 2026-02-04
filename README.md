@@ -6,12 +6,12 @@ A movie recommendation system built with Streamlit that suggests similar movies 
 
 ---
 
-## 🌟 Key Highlights
+## Key Highlights
 
-🔬 **Comparative Analysis**: Evaluated 3 vectorization techniques (Count Vectorizer, TF-IDF, Sentence Transformers)
-📊 **Data-Driven Decision**: Selected Sentence Transformers based on performance metrics
-📈 **Visualizations**: Included detailed comparison charts in analysis notebook
-⚡ **Optimized Performance**: Smart caching for instant recommendations
+- **Comparative Analysis**: Evaluated 3 vectorization techniques (Count Vectorizer, TF-IDF, Sentence Transformers)
+- **Data-Driven Decision**: Selected Sentence Transformers based on performance metrics
+- **Visualizations**: Included detailed comparison charts in analysis notebook
+- **Optimized Performance**: Smart caching for instant recommendations
 
 ---
 
@@ -28,19 +28,19 @@ The system uses **Sentence Transformers** to create semantic embeddings of movie
 
 ---
 
-## ✨ Features
+## Features
 
-🎯 Content-based filtering using state-of-the-art sentence embeddings
-🔬 Comprehensive vectorization comparison (Count, TF-IDF, Sentence Transformers)
-📊 Performance analysis with visualizations in Jupyter notebook
-⚡ Fast similarity computation with cached results
-🎨 Clean and intuitive user interface
-📈 Data-driven model selection based on empirical results
-🚀 Deployed on Streamlit Cloud for easy access
+- Content-based filtering using state-of-the-art sentence embeddings
+- Comprehensive vectorization comparison (Count, TF-IDF, Sentence Transformers)
+- Performance analysis with visualizations in Jupyter notebook
+- Fast similarity computation with cached results
+- Clean and intuitive user interface
+- Data-driven model selection based on empirical results
+- Deployed on Streamlit Cloud for easy access
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.x**
 - **Streamlit** - Web application framework
@@ -61,7 +61,7 @@ This project uses the **TMDB 5000 Movie Dataset** which contains:
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. **Data Preprocessing**: Movie features (overview, genres, keywords, cast, crew) are combined into a single text representation
 2. **Embedding Generation**: Sentence Transformer models convert text into dense vector embeddings
@@ -70,7 +70,7 @@ This project uses the **TMDB 5000 Movie Dataset** which contains:
 
 ---
 
-## 🔬 Methodology & Analysis
+## Methodology & Analysis
 
 This project includes a comprehensive comparison of **three different vectorization techniques**:
 
@@ -90,7 +90,7 @@ After comparing all three approaches (detailed analysis in `analysis_notebook.ip
 
 ---
 
-## 💻 Local Installation
+## Local Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -121,7 +121,7 @@ After comparing all three approaches (detailed analysis in `analysis_notebook.ip
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 movie-recommender/
@@ -137,11 +137,11 @@ movie-recommender/
     └── config.toml
 ```
 
-**💡 Important:** Check `analysis_notebook.ipynb` for the complete analysis comparing Count Vectorizer, TF-IDF, and Sentence Transformers with performance metrics and visualizations!
+** Important:** Check `analysis_notebook.ipynb` for the complete analysis comparing Count Vectorizer, TF-IDF, and Sentence Transformers with performance metrics and visualizations!
 
 ---
 
-## 🎯 Usage
+## Usage
 
 1. Visit the live demo: [https://content-based-movie-recommender-he48pa7appjjbt5ljht3yt7.streamlit.app/]
 2. Select a movie from the dropdown menu
@@ -151,7 +151,7 @@ movie-recommender/
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Streamlit Cloud Deployment
 
@@ -169,7 +169,7 @@ You can modify the recommendation algorithm by:
 
 ---
 
-## 📈 Performance
+## Performance
 
 - **Initial Load**: ~5-10 seconds (generates similarity matrix)
 - **Subsequent Loads**: Instant (uses cached similarity matrix)
@@ -177,7 +177,7 @@ You can modify the recommendation algorithm by:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -189,14 +189,14 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 🐛 Known Issues
+## Known Issues
 
 - Large similarity matrix generation may timeout on Streamlit Cloud free tier (solved with caching)
 - Limited to TMDB 5000 dataset (can be expanded with more data)
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Include user ratings in recommendations
 - [ ] Add hybrid filtering (content + collaborative)
@@ -207,7 +207,7 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 👏 Acknowledgments
+## Acknowledgments
 
 - **TMDB** for providing the movie dataset
 - **Sentence Transformers** library for state-of-the-art embeddings
@@ -216,7 +216,7 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Home Page
 ![Home Page](screenshots/home.png)
@@ -226,7 +226,7 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 🌟 Star History
+## Star History
 
 If you found this project helpful, please consider giving it a star! ⭐
 
