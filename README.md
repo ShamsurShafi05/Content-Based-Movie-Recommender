@@ -2,7 +2,7 @@
 
 A movie recommendation system built with Streamlit that suggests similar movies based on content features using sentence transformers and cosine similarity.
 
-🔗 **Live Demo:** [https://content-based-movie-recommender-he48pa7appjjbt5ljht3yt7.streamlit.app/](https://content-based-movie-recommender-he48pa7appjjbt5ljht3yt7.streamlit.app/)
+**Live Demo:** [https://content-based-movie-recommender-he48pa7appjjbt5ljht3yt7.streamlit.app/](https://content-based-movie-recommender-he48pa7appjjbt5ljht3yt7.streamlit.app/)
 
 ---
 
@@ -15,7 +15,7 @@ A movie recommendation system built with Streamlit that suggests similar movies 
 
 ---
 
-## 📋 Overview
+## Overview
 
 This application recommends movies similar to your favorite ones by analyzing movie metadata including:
 - Overview / Plot
@@ -52,7 +52,7 @@ The system uses **Sentence Transformers** to create semantic embeddings of movie
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 This project uses the **TMDB 5000 Movie Dataset** which contains:
 - 5,000 movies
@@ -143,7 +143,7 @@ movie-recommender/
 
 ## Usage
 
-1. Visit the live demo: [https://content-based-movie-recommender-he48pa7appjjbt5ljht3yt7.streamlit.app/]
+1. Visit the live demo: https://content-based-movie-recommender-he48pa7appjjbt5ljht3yt7.streamlit.app/
 2. Select a movie from the dropdown menu
 3. Choose the number of recommendations you want (1-10)
 4. Click "Get Recommendations"
@@ -213,16 +213,6 @@ Contributions are welcome! Here's how you can help:
 - **Sentence Transformers** library for state-of-the-art embeddings
 - **Streamlit** for web framework
 - The open-source community for inspiration
-
----
-
-## Screenshots
-
-### Home Page
-![Home Page](screenshots/home.png)
-
-### Recommendations
-![Recommendations](screenshots/recommendations.png)
 
 ---
 
